@@ -6,6 +6,7 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	overflow-x: hidden;
 }
 h2 {
 	margin: 0 0 20px 0;
@@ -58,6 +59,12 @@ ul, ol {
 .clearfix {
 	display: block;
 }
+iframe{
+	width: 100%;
+}
+.grasmaaier img{
+	width: 100%;
+}
 ul, ol {
 	padding: 0;
 	webkit-padding: 0;
@@ -77,8 +84,11 @@ hr {
 .navbar-brand {
 	top:-50px !important;
 }
+a img{
+	margin-top:-60px !important;
+}
 .logo{
-	width:20%;
+	width:80%;
 	height: auto;
 }
 #menu {
